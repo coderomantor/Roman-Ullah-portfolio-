@@ -1,5 +1,6 @@
 import { SiteHeader } from "@/components/layout/site-header";
 import { Hero } from "@/components/sections/hero";
+import { SelectedWork } from "@/components/sections/selected-work";
 
 export default function Home() {
   return (
@@ -7,6 +8,7 @@ export default function Home() {
       <SiteHeader />
       <main>
         <Hero />
+        <SelectedWork />
       </main>
     </>
   );
