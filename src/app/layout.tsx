@@ -1,13 +1,20 @@
 import type { Metadata, Viewport } from "next";
-import { Geist } from "next/font/google";
+import { IBM_Plex_Mono, Instrument_Sans } from "next/font/google";
 import type { ReactNode } from "react";
 
 import "./globals.css";
 
-const sans = Geist({
+const sans = Instrument_Sans({
   display: "swap",
   subsets: ["latin"],
-  variable: "--font-sans",
+  variable: "--font-instrument",
+});
+
+const mono = IBM_Plex_Mono({
+  display: "swap",
+  subsets: ["latin"],
+  variable: "--font-plex-mono",
+  weight: ["400", "500"],
 });
 
 const siteName = "Roman Ullah";
@@ -32,11 +39,8 @@ export const metadata: Metadata = {
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
-  colorScheme: "light dark",
-  themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#f7f7f5" },
-    { media: "(prefers-color-scheme: dark)", color: "#111110" },
-  ],
+  colorScheme: "dark",
+  themeColor: "#0a0c0f",
 };
 
 type RootLayoutProps = Readonly<{
@@ -45,9 +49,8 @@ type RootLayoutProps = Readonly<{
 
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
-    <html lang="en" className={sans.variable}>
+    <html lang="en" className={`${sans.variable} ${mono.variable}`}>
       <body>{children}</body>
     </html>
   );
 }
-

@@ -4,7 +4,7 @@ A production-ready foundation for Roman Ullah's future developer and AI engineer
 
 ## Status
 
-Foundation phase complete. The visual identity, portfolio content, case studies, and interactions are intentionally pending.
+Phase 3A is in visual review. The global Creative Systems direction, responsive navigation, and homepage hero are implemented; portfolio sections, case studies, and advanced interactions are intentionally pending.
 
 ## Technology
 
@@ -12,7 +12,7 @@ Foundation phase complete. The visual identity, portfolio content, case studies,
 - React and TypeScript
 - Tailwind CSS
 - ESLint
-- Motion (installed for later, not currently used)
+- Motion (installed for later interaction work, not currently used)
 
 ## Local development
 
@@ -36,10 +36,10 @@ npm run build
 ## Architecture
 
 - `src/app` — App Router routes, root metadata, global styles, and favicon
-- `src/components` — future layout, section, and reusable UI components
+- `src/components` — layout, section, and reusable UI components
 - `src/data` — structured portfolio content
 - `src/hooks` — reusable client hooks
 - `src/lib` — shared utilities and integrations
 - `src/types` — shared domain types
 
-The current homepage is only a semantic smoke test for the application foundation. It is not the portfolio's final design.
+The homepage currently contains only the site header and hero. Selected Work and all subsequent sections are deliberately deferred until the visual direction is approved.
