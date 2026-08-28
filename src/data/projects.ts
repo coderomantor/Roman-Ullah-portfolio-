@@ -18,3 +18,16 @@ export const alvinaProject = {
   year: "2026",
   platform: ["Next.js", "NestJS", "Python", "PostgreSQL", "Redis"],
 } as const satisfies FeaturedProject;
+
+export const employeeVerificationProject = {
+  titleLines: ["Employee", "Verification", "Platform"],
+  number: "02",
+  label: "Production work",
+  category: "Workforce verification system",
+  description:
+    "A production workforce verification platform built around QR access, worker validation, secure admin management and persistent production data.",
+  role: "Full-stack development",
+  type: "Client / production system",
+  year: "2026",
+  platform: ["Next.js", "TypeScript", "PostgreSQL", "Prisma", "Vercel"],
+} as const;

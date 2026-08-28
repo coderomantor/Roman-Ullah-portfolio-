@@ -1,4 +1,5 @@
 import { AlvinaFeature } from "@/components/projects/alvina-feature";
+import { EmployeeVerificationFeature } from "@/components/projects/employee-verification-feature";
 
 export function SelectedWork() {
   return (
@@ -16,6 +17,7 @@ export function SelectedWork() {
         </div>
 
         <AlvinaFeature />
+        <EmployeeVerificationFeature />
       </div>
     </section>
   );
