@@ -127,7 +127,10 @@ export function Contact() {
         </h2>
 
         <div className="contact-actions">
-          <a className="contact-primary" href="mailto:coderomantor@gmail.com">
+          <a
+            className="contact-primary"
+            href="mailto:coderomantor@gmail.com?subject=Portfolio%20Inquiry%20-%20Roman%20Ullah"
+          >
             Let&apos;s talk <span aria-hidden="true">↗</span>
           </a>
           <div className="contact-links" aria-label="Contact links">
