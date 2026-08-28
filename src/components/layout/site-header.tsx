@@ -28,7 +28,7 @@ export function SiteHeader() {
           <div className="nav-links">
             <NavigationLinks />
           </div>
-          <a className="contact-link" href="mailto:coderomantor@gmail.com">
+          <a className="contact-link" href="#contact">
             Let&apos;s Talk <span aria-hidden="true">↗</span>
           </a>
         </nav>
@@ -40,7 +40,7 @@ export function SiteHeader() {
           </summary>
           <nav aria-label="Mobile navigation">
             <NavigationLinks />
-            <a href="mailto:coderomantor@gmail.com">
+            <a href="#contact">
               Let&apos;s Talk <span aria-hidden="true">↗</span>
             </a>
           </nav>

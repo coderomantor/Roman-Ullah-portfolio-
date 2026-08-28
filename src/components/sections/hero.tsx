@@ -25,7 +25,7 @@ export function Hero() {
             <a href="#work">
               Explore my work <span className="action-arrow" aria-hidden="true">↓</span>
             </a>
-            <a href="mailto:coderomantor@gmail.com">
+            <a href="#contact">
               Let&apos;s talk <span className="action-arrow" aria-hidden="true">↗</span>
             </a>
           </div>
