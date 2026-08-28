@@ -129,7 +129,9 @@ export function Contact() {
         <div className="contact-actions">
           <a
             className="contact-primary"
-            href="mailto:coderomantor@gmail.com?subject=Portfolio%20Inquiry%20-%20Roman%20Ullah"
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=coderomantor@gmail.com&su=Portfolio%20Inquiry%20-%20Roman%20Ullah"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             Let&apos;s talk <span aria-hidden="true">↗</span>
           </a>
