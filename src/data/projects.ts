@@ -31,3 +31,16 @@ export const employeeVerificationProject = {
   year: "2026",
   platform: ["Next.js", "TypeScript", "PostgreSQL", "Prisma", "Vercel"],
 } as const;
+
+export const hoshProject = {
+  title: "HOSH",
+  number: "03",
+  label: "Product in development",
+  category: "Mindful Android launcher",
+  status: "In development",
+  description:
+    "A minimal Android launcher designed to reduce digital distraction and make everyday phone use more intentional.",
+  role: "Product development",
+  year: "2026",
+  platform: ["Kotlin", "Jetpack Compose", "Android"],
+} as const;

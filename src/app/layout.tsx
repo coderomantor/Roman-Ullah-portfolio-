@@ -18,19 +18,22 @@ const mono = IBM_Plex_Mono({
 });
 
 const siteName = "Roman Ullah";
-const siteDescription = "Personal portfolio of Roman Ullah. Content and visual design are in development.";
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
+const siteTitle = "Roman Ullah — AI Engineer & Product Builder";
+const siteDescription =
+  "Portfolio of Roman Ullah, an AI engineer and product builder working across artificial intelligence, software engineering and digital product development.";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL;
 
 export const metadata: Metadata = {
-  metadataBase: new URL(siteUrl),
+  metadataBase: siteUrl ? new URL(siteUrl) : undefined,
   title: {
-    default: siteName,
+    default: siteTitle,
     template: `%s | ${siteName}`,
   },
   description: siteDescription,
+  alternates: siteUrl ? { canonical: "/" } : undefined,
   openGraph: {
     type: "website",
-    title: siteName,
+    title: siteTitle,
     description: siteDescription,
     siteName,
   },

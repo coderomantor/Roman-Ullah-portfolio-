@@ -1,7 +1,7 @@
 const navigation = [
   { href: "#work", label: "Work" },
+  { href: "#capabilities", label: "Capabilities" },
   { href: "#about", label: "About" },
-  { href: "#lab", label: "Lab" },
 ] as const;
 
 function NavigationLinks() {
